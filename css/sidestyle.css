@@ -1,4 +1,4 @@
-.box {
+.sidebox {
     border: 1px solid red;
 }
 
@@ -6,8 +6,23 @@
     border: 1px solid black;
 }
 
-.clearfix {
-    display: box;
-    content: "";
-    clear: both;
+#mainheader {
+    border: 1px solid blue;
+    background: white;
+    height:200px;
+}
+
+#contentmain {
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    overflow-y: auto;
+}
+
+#mainfooter {
+    width: 640px;
+    margin: 0% -320px;
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
 }
