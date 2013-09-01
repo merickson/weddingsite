@@ -1,0 +1,13 @@
+.box {
+    border: 1px solid red;
+}
+
+.boxmain {
+    border: 1px solid black;
+}
+
+.clearfix {
+    display: box;
+    content: "";
+    clear: both;
+}
